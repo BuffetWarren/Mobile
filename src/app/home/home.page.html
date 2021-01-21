@@ -1,0 +1,42 @@
+
+
+<ion-content>
+  <div class="padding">
+
+    <div class="logo">
+      <ion-icon color="light" name="person-circle-sharp"></ion-icon>
+    </div>
+    
+    <ion-item>
+      <ion-label color="light">Login</ion-label>
+      <ion-input color="light" placeholder="Votre Pseudo" type="email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="light">Password</ion-label>
+      <ion-input color="light" placeholder="Votre Pseudo" type="password"></ion-input>
+    </ion-item>
+    <ion-item lines="home">
+      <ion-button color="light" slot="end" fill="end">Mot de passe oublié?</ion-button>
+    </ion-item>
+
+    <ion-button color="light" shape="round" expand="block" routerLink="/profil-parrain">Connexion</ion-button>
+    <br>
+    <ion-button shape="round" expand="block" routerLink="/inscription">Inscription</ion-button>
+
+    <ion-item lines="none">
+      <ion-label style="text-align: center;" color="light">Ou connectez-vous avec</ion-label> 
+    </ion-item>
+
+    <div class="flex" shape="round">
+      <ion-button>
+        <ion-icon slot="start" name="logo-facebook"></ion-icon>
+        Facebook
+      </ion-button>
+      <ion-button>
+        <ion-icon slot="start" name="logo-google"></ion-icon>
+        Google
+      </ion-button>
+    </div>
+    
+  </div>
+</ion-content>
