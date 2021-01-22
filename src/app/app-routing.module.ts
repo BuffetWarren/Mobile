@@ -18,7 +18,11 @@ const routes: Routes = [
   {
     path: 'profil-parrain',
     loadChildren: () => import('./profil-parrain/profil-parrain.module').then( m => m.ProfilParrainPageModule)
+  },  {
+    path: 'acceuil',
+    loadChildren: () => import('./acceuil/acceuil.module').then( m => m.AcceuilPageModule)
   },
+
 ];
 
 @NgModule({

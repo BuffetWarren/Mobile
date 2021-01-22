@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Acceuil</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>EDUCATION PARENTALE</ion-card-title>
+    </ion-card-header>
+    <ion-list>
+      <ion-item><strong>{{contact.name}}</strong></ion-item>
+      <ion-item>Email:{{contact.email}}</ion-item>
+      <ion-item>Tel: <strong>{{contact.tel}}</strong></ion-item>
+    </ion-list>
+    <ion-card-content>
+      <ion-img [src]="contact.logo"></ion-img>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
