@@ -1,6 +1,13 @@
 <ion-content>
+  
   <div class="header">
     <h2>Parrain x</h2>
+    <div class="decon">
+      <ion-buttons slot="end" routerLink="/home">
+        <ion-icon name="log-out-outline"></ion-icon>
+        Deconnexion
+      </ion-buttons>
+    </div>
     <!-- # je veux insérer le bouton de déconnexion dans le header à droite
       <ion-button slot="end" size="small" fill="clear" routerLink="/home">
       <ion-icon name="log-out-sharp"></ion-icon>
@@ -13,11 +20,11 @@
         <ion-badge color="primary" mode="ios">42</ion-badge>
         <p>Parrainés</p>
       </div>
+      
       <div class="demamde">
         <ion-badge color="primary" mode="ios">3</ion-badge>
         <p>Demandes</p>
       </div>
-      
     </div>
   </div>
   <div class="flex">
@@ -43,11 +50,11 @@
     <ion-item lines="none" class="description">
       <ion-label text-wrap>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus sint quod at. Hic, architecto quaerat.</ion-label>
     </ion-item>
-    <ion-button size="small" fill="clear">
-      <ion-icon name="checkmark-sharp"></ion-icon>
+    <ion-button size="small" fill="clear" color="success">
+      <ion-icon name="checkmark-sharp" ></ion-icon>
       Accepter
     </ion-button>
-    <ion-button size="small" fill="clear">
+    <ion-button size="small" fill="clear" color="danger">
       <ion-icon name="close-sharp"></ion-icon>
       Refuser
     </ion-button>
@@ -64,11 +71,11 @@
       <ion-label text-wrap>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, minus nesciunt! Illum aliquid provident error amet placeat possimus sint ducimus.</ion-label>
     </ion-item>
     <img id="description-image" src="../../assets/home-office-336581_1920.jpg" >
-    <ion-button size="small" fill="clear">
+    <ion-button size="small" fill="clear" color="success">
       <ion-icon name="checkmark-sharp"></ion-icon>
       Accepter
     </ion-button>
-    <ion-button size="small" fill="clear">
+    <ion-button size="small" fill="clear" color="danger">
       <ion-icon name="close-sharp"></ion-icon>
       Refuser
     </ion-button>
@@ -84,11 +91,11 @@
     <ion-item lines="none" class="description">
       <ion-label text-wrap>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit asperiores est dolores! Ullam reprehenderit quos, vel cumque animi aliquid rerum velit perferendis consequuntur soluta odio vitae suscipit. Quae rem et culpa.</ion-label>
     </ion-item>
-    <ion-button size="small" fill="clear">
+    <ion-button size="small" fill="clear" color="success">
       <ion-icon name="checkmark-sharp"></ion-icon>
       Accepter
     </ion-button>
-    <ion-button size="small" fill="clear">
+    <ion-button size="small" fill="clear" color="danger">
       <ion-icon name="close-sharp"></ion-icon>
       Refuser
     </ion-button>
