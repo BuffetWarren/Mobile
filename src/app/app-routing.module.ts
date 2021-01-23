@@ -39,6 +39,15 @@ const routes: Routes = [
     path: 'tab3',
     loadChildren: () => import('./tab3/tab3.module').then( m => m.Tab3PageModule)
   },
+  {
+    path: 'listechat',
+    loadChildren: () => import('./listechat/listechat.module').then( m => m.ListechatPageModule)
+  },
+  {
+    path: 'conversation',
+    loadChildren: () => import('./conversation/conversation.module').then( m => m.ConversationPageModule)
+  },
+
 
 ];
 

@@ -1,0 +1,135 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+        <ion-button>
+          Modifier
+        </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+        <ion-button>
+          <ion-icon slot="icon-only" name="create"></ion-icon>
+        </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-title> Chats</ion-title>
+  </ion-toolbar>
+  <ion-toolbar>
+    <ion-searchbar></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list >
+    <ion-item lines="full">
+      <ion-button slot="start" size="small" fill="clear">
+        Listes de diffusion
+      </ion-button>
+      <ion-button slot="end" size="small" fill="clear">
+        Nouveau groupe
+      </ion-button>
+    </ion-item>
+
+
+    <ion-item detail routerLink="/conversation">
+      <ion-avatar slot="start" >
+        <img src="../../assets/home-office-336581_1920.jpg">
+      </ion-avatar>
+      <ion-label>
+        <div class="flex_box">
+          <h3>Warren</h3>
+          <ion-note slot="end">17:54</ion-note>
+        </div>
+        <p><ion-icon class="text-icon" color="primary" name="done-all"></ion-icon> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, distinctio....</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item detail routerLink="/conversation">
+      <ion-avatar slot="start">
+        <img src="../../assets/avatar-1687700_1280.jpg">
+      </ion-avatar>
+      <ion-label>
+        <div class="flex_box">
+          <h3>FLiol2</h3>
+          <ion-note slot="end">7:06</ion-note>
+        </div>
+        <div class="flex_box">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod!...</p>
+          <ion-icon color="medium" name="volume-off"></ion-icon>
+        </div>
+      </ion-label>
+    </ion-item>
+
+    <ion-item detail routerLink="/conversation">
+      <ion-avatar slot="start">
+        <img src="../../assets/avatar-rey.jpg">
+      </ion-avatar>
+      <ion-label>
+        <div class="flex_box">
+          <h3>Jeremi</h3>
+          <ion-note slot="end">Hier</ion-note>
+          </div>
+        <p>Bonsoir bro tu te portes bien?...</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item detail routerLink="/conversation">
+      <ion-avatar slot="start">
+        <img src="../../assets/avatar-luke.jpeg">
+      </ion-avatar>
+      <ion-label>
+        <div class="flex_box">
+          <h3>Yvann</h3>
+          <ion-note slot="end">Hier</ion-note>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, id....</p>
+      </ion-label>
+    </ion-item>
+
+
+
+    <ion-item detail routerLink="/conversation">
+      <ion-avatar slot="start" >
+        <img src="../../assets/avatar-finn.png">
+      </ion-avatar>
+      <ion-label>
+        <div class="flex_box">
+          <h3>Bill</h3>
+          <ion-note slot="end">12:54</ion-note>
+        </div>
+        <p><ion-icon class="text-icon" color="primary" name="done-all"></ion-icon> Lorem ipsum dolor sit amet consectetur....</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item detail routerLink="/conversation">
+      <ion-avatar slot="start">
+        <img src="../../assets/avatar-han.jpg">
+      </ion-avatar>
+      <ion-label>
+        <div class="flex_box">
+          <h3>Fabrice</h3>
+          <ion-note slot="end">7:06</ion-note>
+        </div>
+        <div class="flex_box">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit....</p>
+          <ion-icon color="medium" name="volume-off"></ion-icon>
+        </div>
+      </ion-label>
+    </ion-item>
+
+    <ion-item detail routerLink="/conversation">
+      <ion-avatar slot="start">
+        <img src="../../assets/avatar-rey.jpg">
+      </ion-avatar>
+      <ion-label>
+        <div class="flex_box">
+          <h3>Okry</h3>
+          <ion-note slot="end">Avant-Hier</ion-note>
+          </div>
+        <p>Lorem ipsum dolor sit amet consectetur....</p>
+      </ion-label>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>
