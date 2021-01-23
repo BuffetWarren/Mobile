@@ -18,9 +18,26 @@ const routes: Routes = [
   {
     path: 'profil-parrain',
     loadChildren: () => import('./profil-parrain/profil-parrain.module').then( m => m.ProfilParrainPageModule)
-  },  {
+  },
+  {
     path: 'acceuil',
     loadChildren: () => import('./acceuil/acceuil.module').then( m => m.AcceuilPageModule)
+  },
+  {
+    path: 'tabs',
+    loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
+  },
+  {
+    path: 'tab1',
+    loadChildren: () => import('./tab1/tab1.module').then( m => m.Tab1PageModule)
+  },
+  {
+    path: 'tab2',
+    loadChildren: () => import('./tab2/tab2.module').then( m => m.Tab2PageModule)
+  },
+  {
+    path: 'tab3',
+    loadChildren: () => import('./tab3/tab3.module').then( m => m.Tab3PageModule)
   },
 
 ];
